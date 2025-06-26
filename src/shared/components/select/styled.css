@@ -1,0 +1,11 @@
+.select-styled {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.select-styled select {
+  padding: 4px;
+  border: 1px solid black;
+  border-radius: 8px;
+}

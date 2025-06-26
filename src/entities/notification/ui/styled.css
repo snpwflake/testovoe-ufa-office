@@ -1,0 +1,42 @@
+.notifications {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.notification {
+  position: relative;
+  padding: 16px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  background: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+
+  animation: slideInRight 0.3s ease-out;
+}
+
+.notification-success {
+  border: 1px solid green;
+}
+
+.notification-warning {
+  border: 1px solid yellow;
+}
+
+.notification-error {
+  border: 1px solid red;
+}

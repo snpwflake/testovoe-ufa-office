@@ -1,0 +1,37 @@
+.request-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+  border: 1px solid black;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.request-item__header {
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+}
+
+.request-item__description {
+  min-height: 100px;
+}
+
+.request-item__footer {
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+}
+
+.request-item__actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.request-item__title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

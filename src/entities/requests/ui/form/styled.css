@@ -1,0 +1,12 @@
+.request-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+.request-form__buttons {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+}
