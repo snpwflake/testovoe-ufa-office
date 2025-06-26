@@ -7,7 +7,7 @@ export default defineConfig({
       "@": "/src",
     },
   },
-  base: "/",
+  root: ".",
   server: {
     port: 3000,
   },
