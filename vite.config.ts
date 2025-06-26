@@ -7,5 +7,15 @@ export default defineConfig({
       "@": "/src",
     },
   },
+  server: {
+    port: 3000,
+  },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: undefined,
+      },
+    },
+  },
   plugins: [react()],
 });
